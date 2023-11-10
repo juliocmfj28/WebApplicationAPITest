@@ -1,3 +1,4 @@
+using System.Diagnostics;
 
 namespace WebApplicationAPITest
 {
@@ -55,6 +56,8 @@ namespace WebApplicationAPITest
             .WithOpenApi();
 
             app.Run();
+
+            Debug.WriteLine("Application is running...");
         }
     }
 }
